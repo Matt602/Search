@@ -1,4 +1,6 @@
 
+
+
 ul {
     list-style: none;
     margin: 0;
@@ -16,4 +18,30 @@ a {
 .list-search {
     display: flex;
     justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+    padding: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 0;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+input[type="text"] {
+    border-radius: 20px;
+    padding: 8px 60px;
+    box-shadow: 0 1px 6px 0 rgb(179, 172, 172);
+    border-color: white;
+    border-style: solid;
 }
