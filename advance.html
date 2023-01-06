@@ -28,6 +28,15 @@
         .advance-container > form > div > label {
             width: 300px;
         }
+
+        .adv-submit > input{
+            background-color: rgb(138, 180, 248);
+            color: black;
+            padding: 14px;
+            font-size: 14px;
+            font-weight: bold;
+
+        }
       
     </style>
 
@@ -45,24 +54,25 @@
             <h4>Find pages with...</h4>
 
             <div>
-                <label for="all">all these words:</label>
-                <input type="text" name="all">
+                <label for="as_q">all these words:</label>
+                <input type="text" name="as_q">
             </div>
 
             <div>
-                <label for="exact">this exact word or phrase:</label>
-                <input type="text" name="exact">
+                <label for="as_epq">this exact word or phrase:</label>
+                <input type="text" name="as_epq">
             </div>
 
             <div>
-                <label for="any">any of these words</label>
-                <input type="text" name="any">
+                <label for="as_oq">any of these words</label>
+                <input type="text" name="as_oq">
             </div>
 
             <div>
-                <label for="none">none of these words:</label>
-                <input type="text" name="none">
+                <label for="as_eq">none of these words:</label>
+                <input type="text" name="as_eq">
             </div>
+            <div class="adv-submit"><input type="submit" value="Advanced Search"></div>
         </form>
     </div>
     
